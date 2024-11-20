@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 479989cf6dadac94ca54794e177ca263
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Objects/Grave3.prefab
+  uploadId: 335159

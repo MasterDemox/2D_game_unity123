@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: edf26659529aeb54f8e2e2777f8f695c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Plants/Plant.prefab
+  uploadId: 335159

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fa7bb42c67375f940912a9180ec55ae9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallBottomRight.prefab
+  uploadId: 335159

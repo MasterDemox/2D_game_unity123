@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d61895febea916247b52fdf8ff4902a8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Objects/Destroyed cage.prefab
+  uploadId: 335159

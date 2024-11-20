@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc9a8a97a1d00b64194b56c5b1bf5265
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Trees/Tree1.asset
+  uploadId: 335159

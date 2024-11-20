@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0d5f416549af21e42886abac94c0f998
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallMiddleLeft.prefab
+  uploadId: 335159

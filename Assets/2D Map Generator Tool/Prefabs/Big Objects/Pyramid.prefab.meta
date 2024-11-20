@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4c3a47a10040e74e96a2e48a18e7f1f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Big Objects/Pyramid.prefab
+  uploadId: 335159

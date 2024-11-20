@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1a4d58cd4a5fa44458af61c47403c753
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Trees/DeadTree4.prefab
+  uploadId: 335159

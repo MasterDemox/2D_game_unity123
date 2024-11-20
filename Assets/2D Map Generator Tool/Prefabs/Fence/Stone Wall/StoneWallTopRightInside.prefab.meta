@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7f5234fdd93fe9749b852fce5999192f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallTopRightInside.prefab
+  uploadId: 335159

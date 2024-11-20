@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8baf6bf516ecf4c4da7829870aed4995
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Big Objects/Stone.prefab
+  uploadId: 335159

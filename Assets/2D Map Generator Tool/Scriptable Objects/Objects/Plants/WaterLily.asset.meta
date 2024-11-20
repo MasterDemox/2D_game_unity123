@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5bca127ac38f2ed4ba3c54080fca7f8d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Objects/Plants/WaterLily.asset
+  uploadId: 335159

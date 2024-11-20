@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e5d2a5e8c93022643ba133ff20b7e645
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Objects/Objects/Grave1.asset
+  uploadId: 335159

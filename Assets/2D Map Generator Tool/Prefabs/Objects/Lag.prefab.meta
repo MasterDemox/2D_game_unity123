@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1b5f216980e48b14491522d94d7f98bf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Objects/Lag.prefab
+  uploadId: 335159

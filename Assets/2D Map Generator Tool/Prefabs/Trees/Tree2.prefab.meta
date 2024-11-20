@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db02d60710bc4e34483d3d47812b3c7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Trees/Tree2.prefab
+  uploadId: 335159

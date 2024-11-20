@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c91bec89e9c047944830ce62b526cabd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Big Objects/Stall.asset
+  uploadId: 335159

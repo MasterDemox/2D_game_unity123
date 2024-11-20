@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6915219e9db4284438b946d9910fb988
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Trees/JungleTree1.prefab
+  uploadId: 335159

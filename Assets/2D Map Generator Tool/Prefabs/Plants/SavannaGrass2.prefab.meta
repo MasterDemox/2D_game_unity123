@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 22c25d7a072d71247bba1639a902c6ff
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Plants/SavannaGrass2.prefab
+  uploadId: 335159

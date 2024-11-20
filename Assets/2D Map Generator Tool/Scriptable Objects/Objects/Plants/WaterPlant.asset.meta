@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72544d059808b7c4e85575bfc50ae839
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Objects/Plants/WaterPlant.asset
+  uploadId: 335159

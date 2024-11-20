@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 92fcae39cc263f14dbf1b898b3f2d8af
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Big Objects/Tent2.prefab
+  uploadId: 335159

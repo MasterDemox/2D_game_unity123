@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ae96d54278c24534c8481caa082b7e1b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeTopRight.prefab
+  uploadId: 335159

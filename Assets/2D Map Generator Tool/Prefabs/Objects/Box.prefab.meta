@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 332ca3a3cbe69ca4eada1facc7e1adfd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Objects/Box.prefab
+  uploadId: 335159

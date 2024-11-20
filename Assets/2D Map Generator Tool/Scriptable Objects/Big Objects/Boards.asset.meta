@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1ff8d60be4006a4084aeced9afcfcd6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Big Objects/Boards.asset
+  uploadId: 335159

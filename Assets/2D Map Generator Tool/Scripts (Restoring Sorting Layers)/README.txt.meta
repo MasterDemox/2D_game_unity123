@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c92e43e46961f04e8d5e5846123fbf3
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scripts (Restoring Sorting Layers)/README.txt
+  uploadId: 335159
