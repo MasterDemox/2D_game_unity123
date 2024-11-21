@@ -1,42 +1,44 @@
-using System.Collections;
+п»їusing System.Collections;
 using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    public Transform player; // Ссылка на игрока
-    public float detectionRange = 5f; // Радиус обнаружения игрока
-    public float attackRange = 1.5f; // Радиус, в котором враг останавливается для атаки
-    public float moveSpeed = 2f; // Скорость движения врага
-    public float attackDuration = 2f; // Время остановки на "атаку"
-    public float damage = 20f; // Урон, который наносит враг
+    public Transform player;
+    public float detectionRange = 5f;
+    public float attackRange = 1.5f;
+    public float moveSpeed = 2f;
+    public float attackDuration = 2f;
+    public float damage = 20f;
+    public float maxHealth = 100f;
+    private float currentHealth;
+    public Transform spawnPoint;
 
-    public float maxHealth = 100f; // Максимальное здоровье врага
-    private float currentHealth; // Текущее здоровье врага
+    private bool isAttacking = false;
+    private EnemyKillTracker killTracker;
 
-    public Transform spawnPoint; // Спавнпоинт для телепортации
+    private Animator animator;
 
-    private bool isAttacking = false; // Флаг атаки
-    private EnemyKillTracker killTracker; // Ссылка на скрипт учета убитых врагов
+    // РҐСЂР°РЅРёС‚Рµ С‚РµРєСѓС‰РµРµ РЅР°РїСЂР°РІР»РµРЅРёРµ (С„Р»РёРї) РІСЂР°РіР°
+    private bool isFacingRight = true;
 
     void Start()
     {
-        currentHealth = maxHealth; // Устанавливаем текущее здоровье на максимум
-        killTracker = Object.FindFirstObjectByType<EnemyKillTracker>(); // Находим скрипт учета убитых врагов
+        currentHealth = maxHealth;
+        killTracker = Object.FindFirstObjectByType<EnemyKillTracker>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
         if (isAttacking)
         {
-            return; // Если враг атакует, ничего не делаем
+            return;
         }
 
-        // Проверяем расстояние до игрока
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
         if (distanceToPlayer <= detectionRange)
         {
-            // Если враг в радиусе обнаружения, двигаемся к игроку
             MoveTowardsPlayer(distanceToPlayer);
         }
     }
@@ -45,46 +47,59 @@ public class EnemyAI : MonoBehaviour
     {
         if (distanceToPlayer <= attackRange)
         {
-            // Если враг в радиусе атаки, останавливаемся и атакуем
             StartCoroutine(Attack());
         }
         else
         {
-            // Двигаемся к игроку
+            animator.SetBool("isRunning", true);
             Vector3 direction = (player.position - transform.position).normalized;
+
+            // Р¤Р»РёРї РїРѕ РѕСЃРё X РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРІРёР¶РµРЅРёСЏ
+            if (direction.x > 0 && !isFacingRight)
+            {
+                Flip(); // РџРѕРІРѕСЂР°С‡РёРІР°РµРј РІСЂР°РіР° РІРїСЂР°РІРѕ
+            }
+            else if (direction.x < 0 && isFacingRight)
+            {
+                Flip(); // РџРѕРІРѕСЂР°С‡РёРІР°РµРј РІСЂР°РіР° РІР»РµРІРѕ
+            }
+
+            // Р”РІРёРіР°РµРј РІСЂР°РіР° Рє РёРіСЂРѕРєСѓ
             transform.position += direction * moveSpeed * Time.deltaTime;
         }
+    }
+
+    private void Flip()
+    {
+        isFacingRight = !isFacingRight; // РњРµРЅСЏРµРј РЅР°РїСЂР°РІР»РµРЅРёРµ
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1; // РРЅРІРµСЂС‚РёСЂСѓРµРј РјР°СЃС€С‚Р°Р± РїРѕ РѕСЃРё X
+        transform.localScale = localScale; // РџСЂРёРјРµРЅСЏРµРј РЅРѕРІС‹Р№ РјР°СЃС€С‚Р°Р±
     }
 
     private IEnumerator Attack()
     {
         isAttacking = true;
+        animator.SetTrigger("Attacking");
 
-        // Атака игрока
         PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth != null)
         {
-            playerHealth.TakeDamage(damage); // Наносим урон игроку
+            playerHealth.TakeDamage(damage);
         }
 
-        // Здесь можно добавить анимацию атаки или другие эффекты
-
-        // Остановка на время атаки
         yield return new WaitForSeconds(attackDuration);
-
-        // Завершение атаки
         isAttacking = false;
     }
 
-    // Метод для получения урона
     public void TakeDamage(float damage)
     {
-        currentHealth -= damage; // Уменьшаем здоровье на величину урона
+        currentHealth -= damage;
         Debug.Log($"Enemy took damage: {damage}. Current health: {currentHealth}");
 
         if (currentHealth <= 0)
         {
-            Die(); // Если здоровье меньше или равно нулю, вызываем метод смерти
+            Die();
         }
     }
 
@@ -92,21 +107,19 @@ public class EnemyAI : MonoBehaviour
     {
         Debug.Log("Enemy died!");
 
-        // Увеличиваем счетчик убитых врагов
         if (killTracker != null)
         {
-            killTracker.IncrementKillCount(); // Увеличиваем счетчик
+            killTracker.IncrementKillCount();
         }
-           
-        // Телепортация врага на спавнпоинт
+
         if (spawnPoint != null)
         {
-            transform.position = spawnPoint.position; // Телепортируем врага
-            currentHealth = maxHealth; // Восстанавливаем здоровье
+            transform.position = spawnPoint.position;
+            currentHealth = maxHealth;
         }
         else
         {
-            Destroy(gameObject); // Уничтожаем объект врага, если спавнпоинт не задан
+            Destroy(gameObject);
         }
     }
 }

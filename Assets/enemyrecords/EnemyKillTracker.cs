@@ -5,10 +5,6 @@ public class EnemyKillTracker : MonoBehaviour
     private int killCount = 0; // Счетчик убитых врагов
 
     public GameObject UIText;
-    
-        
-    
-
    
     // Метод для увеличения счетчика убитых врагов
     public void IncrementKillCount()
