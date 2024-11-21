@@ -16,10 +16,12 @@ public class EnemyAI : MonoBehaviour
     public Transform spawnPoint; // Спавнпоинт для телепортации
 
     private bool isAttacking = false; // Флаг атаки
+    private EnemyKillTracker killTracker; // Ссылка на скрипт учета убитых врагов
 
     void Start()
     {
         currentHealth = maxHealth; // Устанавливаем текущее здоровье на максимум
+        killTracker = Object.FindFirstObjectByType<EnemyKillTracker>(); // Находим скрипт учета убитых врагов
     }
 
     void Update()
@@ -89,6 +91,13 @@ public class EnemyAI : MonoBehaviour
     private void Die()
     {
         Debug.Log("Enemy died!");
+
+        // Увеличиваем счетчик убитых врагов
+        if (killTracker != null)
+        {
+            killTracker.IncrementKillCount(); // Увеличиваем счетчик
+        }
+           
         // Телепортация врага на спавнпоинт
         if (spawnPoint != null)
         {
