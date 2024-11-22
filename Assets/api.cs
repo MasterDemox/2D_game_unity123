@@ -9,17 +9,25 @@ public class ScoreSender : MonoBehaviour
         StartCoroutine(SendScore(100));
     }
 
+    [System.Serializable]
+    public class ScoreData
+    {
+        public int score;
+    }
+
     IEnumerator SendScore(int score)
     {
-        string url = "http://127.0.0.1:5000/api"; // ���������, ��� URL ����������
-        string jsonData = JsonUtility.ToJson(new { score = score });
+        string url = "http://127.0.0.1:5000/stats"; // URL вашего API
+        ScoreData scoreData = new ScoreData { score = score };
+        string jsonData = JsonUtility.ToJson(scoreData);
+        Debug.Log("Sending JSON: " + jsonData); // Отладочное сообщение
 
-        using (UnityWebRequest www = UnityWebRequest.PostWwwForm(url, jsonData))
+        using (UnityWebRequest www = new UnityWebRequest(url, "POST"))
         {
-            www.method = UnityWebRequest.kHttpVerbPOST;
-            www.SetRequestHeader("Content-Type", "application/json");
-            www.uploadHandler = new UploadHandlerRaw(System.Text.Encoding.UTF8.GetBytes(jsonData));
+            byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
+            www.uploadHandler = new UploadHandlerRaw(bodyRaw);
             www.downloadHandler = new DownloadHandlerBuffer();
+            www.SetRequestHeader("Content-Type", "application/json");
 
             yield return www.SendWebRequest();
 

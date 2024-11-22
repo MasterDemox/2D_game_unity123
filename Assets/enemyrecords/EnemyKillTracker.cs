@@ -13,4 +13,6 @@ public class EnemyKillTracker : MonoBehaviour
         Debug.Log($"Total enemies killed: {killCount}");
         UIText.GetComponent<Text>().text = "Убито врагов:" + killCount.ToString();
     }
+
+
 }
