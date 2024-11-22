@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cf812facf4389d64b95f9d4f07a3e37b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Big Objects/Stall.prefab
+  uploadId: 335159

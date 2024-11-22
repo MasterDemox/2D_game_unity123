@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 34609d40a5bc81b42b53677774cd71ae
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Plants/Grass2.prefab
+  uploadId: 335159

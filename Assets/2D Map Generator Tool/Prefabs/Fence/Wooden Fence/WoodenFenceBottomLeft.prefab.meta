@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 11c863a63ba2b974fad49bd0c960dfbd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceBottomLeft.prefab
+  uploadId: 335159

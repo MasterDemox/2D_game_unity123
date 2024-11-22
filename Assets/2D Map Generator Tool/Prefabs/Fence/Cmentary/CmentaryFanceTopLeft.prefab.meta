@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6aa5b97ee45b51c4e836e39657e13631
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceTopLeft.prefab
+  uploadId: 335159

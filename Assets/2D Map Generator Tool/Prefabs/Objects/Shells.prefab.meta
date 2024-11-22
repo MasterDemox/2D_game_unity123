@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1c3c47706559e9d409fd75646d36a702
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Objects/Shells.prefab
+  uploadId: 335159

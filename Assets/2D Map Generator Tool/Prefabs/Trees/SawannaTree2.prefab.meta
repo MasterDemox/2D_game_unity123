@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5a59409364115b242b437c3712d0a787
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Trees/SawannaTree2.prefab
+  uploadId: 335159

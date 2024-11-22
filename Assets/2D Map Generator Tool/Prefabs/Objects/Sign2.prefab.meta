@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2ae00dc6d8627dc46b36fc93bf59afcd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Objects/Sign2.prefab
+  uploadId: 335159

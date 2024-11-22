@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ced2a7a64f176c41bf7c8e5ef998ccd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Objects/Objects/Rock2.asset
+  uploadId: 335159

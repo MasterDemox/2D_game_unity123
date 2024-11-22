@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4f0620c1026e7e649a1b4e721cda4762
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Plants/Cactus.prefab
+  uploadId: 335159

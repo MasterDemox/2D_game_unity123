@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d7a5ded4e31a8d4428345c8df7ad98b3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Big Objects/Caravan.prefab
+  uploadId: 335159

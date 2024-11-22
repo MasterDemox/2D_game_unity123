@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60bba2aed14d67d43b1a634b4eb22e6e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Objects/Plants/SavannaGrass2.asset
+  uploadId: 335159

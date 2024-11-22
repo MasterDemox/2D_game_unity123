@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f1c39b74304bb5c429a27d65eb531cef
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Big Objects/Building4.prefab
+  uploadId: 335159

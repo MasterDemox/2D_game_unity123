@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42894124c6e24bb4d8d3a648a7d24b0d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Plants/Sunflower.prefab
+  uploadId: 335159

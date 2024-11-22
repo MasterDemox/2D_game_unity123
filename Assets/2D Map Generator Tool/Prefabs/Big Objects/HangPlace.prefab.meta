@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6316df6c0716134a8364652ae825875
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Big Objects/HangPlace.prefab
+  uploadId: 335159

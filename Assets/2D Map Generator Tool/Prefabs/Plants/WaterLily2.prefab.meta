@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc91a7ed012ff334887e6de7591f222e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Plants/WaterLily2.prefab
+  uploadId: 335159

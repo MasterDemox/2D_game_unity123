@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b8735ce663858d140ae42a27686dc220
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Objects/Cauldron.prefab
+  uploadId: 335159

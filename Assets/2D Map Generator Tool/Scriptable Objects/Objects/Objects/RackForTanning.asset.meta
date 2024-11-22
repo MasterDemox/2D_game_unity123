@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 372369a7c40f72b47b0de1fcc6d09226
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Objects/Objects/RackForTanning.asset
+  uploadId: 335159

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3dfaf574e8a784e4a8332d20a484ff46
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Objects/Chest1.prefab
+  uploadId: 335159

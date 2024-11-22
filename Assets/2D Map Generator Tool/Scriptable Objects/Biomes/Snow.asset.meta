@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6825678a1b568a445a1d17ed9b498953
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Snow.asset
+  uploadId: 335159

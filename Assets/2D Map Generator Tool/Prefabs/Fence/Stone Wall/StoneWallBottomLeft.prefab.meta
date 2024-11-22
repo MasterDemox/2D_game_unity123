@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0845a2d1eda5b564cb39d52fcba032dd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallBottomLeft.prefab
+  uploadId: 335159

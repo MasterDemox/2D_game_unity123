@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 49e742a02449f84489f4c7574b831beb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeMiddleLeft.prefab
+  uploadId: 335159

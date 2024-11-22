@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 428b23ef731452243acf0658adf1f60a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155839
+  packageName: 2D Map Generator Tool
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Map Generator Tool/Scriptable Objects/Objects/Plants/Grass3.asset
+  uploadId: 335159
